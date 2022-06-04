@@ -1,0 +1,24 @@
+#contact-box{
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+}
+input{
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;  
+}
+button{
+    display: block;
+    margin: 10px auto;
+    padding: 6px;
+    border: 1px solid red;
+    background-color: black;
+    color: wheat;
+    border-radius: 4px;
+    cursor: pointer;
+}

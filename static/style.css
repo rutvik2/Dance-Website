@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Orbitron&family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+#logo img{
+    height: 32px;
+}
+#logo p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+#navbar{
+    background-color: #ffa694;
+    padding: 5px 8px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 3px 26px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+}
+#navbar li a:hover{
+    
+    font-weight: bold;
+}
+#introSec{
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    background: no-repeat center/cover url("/static/intro.jpg");
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+}
+
+#introSec div.small{
+    font-size: 2.5rem;
+    font-family: 'Babylonica', cursive;
+    font-weight: bold;
+} 
+
+#missionSec{
+    height: 300px;
+    padding-top: 13px;
+
+}
+#missionSec h2{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+} 
+.card{
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 14px;
+    height: 200px;
+    margin: 17px 21px;
+    display: inline-block;
+    padding: 8px;
+}
+.card h3{
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    align-items: space-between;
+    padding-top: 15px;
+}
+.card-img{
+    padding: 5px;
+    height: 120px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding-top: 30px;
+    padding-right: 14px;
+    text-align: center;
+}
+
+#sponsorSec{
+    height: 300px;
+    background-color: blanchedalmond;
+    padding-top: 25px;
+}
+#sponsorSec h2{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+}
+.sponsor-box{
+    height: 166px;
+    max-width: 728px;
+    margin: 20px auto;
+}
+.sponsorImage{
+    height:80%;
+    margin:20px; 
+}
+#footer{
+    height: 33px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
